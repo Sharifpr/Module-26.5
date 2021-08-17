@@ -108,7 +108,9 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
         updateTotalField('total-withdraw', withdrawAmount)
         updateBalance(withdrawAmount, false);
     }
-
+    if (withdrawAmount > currentBalance) {
+        alert('There is not enough money in the account');
+    }
 
 })
 
