@@ -6,7 +6,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const userPassword = passwordField.value;
 
     if (userEmail == 'sharif@gmail.com' && userPassword == 'sharif') {
-        window.location.href = "banking.html";
+        window.location.href = "banking-function.html";
 
     }
 
